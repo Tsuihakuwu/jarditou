@@ -11,7 +11,7 @@
     <!--<link rel="stylesheet" href="/assets/css/mobile.css">
     <link rel="stylesheet" media="screen and (min-width: 576px)" href="tablette.css">
 	<link rel="stylesheet" media="screen and (min-width: 768px)" href="desktop.css"> -->
-    <link rel="icon" href="/src/img/jarditou_favicon.ico" />
+    <link rel="icon" href="/src/img/jarditou_favicon.ico">
 </head>
 
 <body>
@@ -34,23 +34,23 @@
             </li>
         </ul>
     </nav>
-    <div id="promo">
+    <div id="div_promo">
         <img src="/src/img/promotion.jpg" alt="promo" id="promo">
     </div>
     <!--Section-->
     <div id="sa_flex">
         <section id="section">
-            <heading id="heading">
-                <h1>Tableau</h1>
+
+                <h2>Tableau</h2>
                 <hr>
-            </heading>
+
             <article id="article">
                 <!--Formulaire-->
                 <form action="http://bienvu.net/script.php" method="POST">
                     <p>&#42; Ces zones sont obligatoires</p>
                     <br>
                     <fieldset>
-                        <legend>Vos coordonnées</legend>
+                        <legend><h2>Vos coordonnées</h2></legend>
                         <label for="nom">Votre nom&#42; : </label><input type="text" name="nom" id="nom" required><br>
                         <label for="prenom">Votre pr&eacute;nom&#42; : </label><input type="text" name="prenom"
                             id="prenom" required><br>
@@ -75,7 +75,7 @@
                     </fieldset>
                     <br>
                     <fieldset>
-                        <legend>Votre demande</legend>
+                        <legend><h2>Votre demande</h2></legend>
                         <label for="sujet" id="lb_sujet">Sujet&#42; : </label>
                         <select name="sujet" id="sujet">
                             <option value="" selected disabled hidden>Veuillez sel&eacute;ctionner un sujet</option>
@@ -93,7 +93,7 @@
                             traitement
                             informatique de ce formulaire</label></div><br>
                     <div id="accept_flex">
-                        <input type="submit" value="Envoyer" class="bt"><input type="submit" value="Annuler" class="bt">
+                        <input type="submit" value="Envoyer" class="bt"><input type="reset" value="Annuler" class="bt">
                     </div>
                 </form>
             </article>
